@@ -4,8 +4,154 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ccd2ccd2f0483c3310f399349de7528",
+    "content-hash": "cf4f551fd7d5689daa593342e0b86c23",
     "packages": [
+        {
+            "name": "desarrolla2/cache",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/desarrolla2/Cache.git",
+                "reference": "5a9b1b55cf666328cb3ca161357ccd767225fea0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/desarrolla2/Cache/5a9b1b55cf666328cb3ca161357ccd767225fea0.zip",
+                "reference": "5a9b1b55cf666328cb3ca161357ccd767225fea0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "predis/predis": "~1.0.0"
+            },
+            "suggest": {
+                "predis/predis": "Predis support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Desarrolla2\\Cache\\": "src/",
+                    "Desarrolla2\\Test\\Cache\\": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel González",
+                    "homepage": "http://desarrolla2.com/"
+                }
+            ],
+            "description": "Provides an cache interface for several adapters Apc, Apcu, File, Mongo, Memcache, Memcached, Mysql, Mongo, Redis is supported. New adapters is comming!",
+            "homepage": "https://github.com/desarrolla2/Cache/",
+            "keywords": [
+                "apc",
+                "apcu",
+                "cache",
+                "file",
+                "memcache",
+                "memcached",
+                "mongo",
+                "mysql",
+                "redis"
+            ],
+            "time": "2015-11-26 12:29:49"
+        },
+        {
+            "name": "jasny/sso",
+            "version": "v0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jasny/sso.git",
+                "reference": "10524d58a35bfcb6cabbb57ce2c83231391fe11f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/jasny/sso/10524d58a35bfcb6cabbb57ce2c83231391fe11f.zip",
+                "reference": "10524d58a35bfcb6cabbb57ce2c83231391fe11f",
+                "shasum": ""
+            },
+            "require": {
+                "desarrolla2/cache": "^2.0.0",
+                "jasny/validation-result": "^1.0.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "^2.1.0",
+                "jasny/php-code-quality": "^1.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jasny\\SSO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnold Daniels",
+                    "email": "arnold@jasny.net",
+                    "homepage": "http://www.jasny.net"
+                }
+            ],
+            "description": "Simple Single Sign-On",
+            "homepage": "http://www.jasny.net/articles/simple-single-sign-on-for-php/",
+            "keywords": [
+                "SSO",
+                "auth"
+            ],
+            "time": "2016-04-14 01:48:39"
+        },
+        {
+            "name": "jasny/validation-result",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jasny/validation-result.git",
+                "reference": "7d09599a6eb90fb4fff2bbc2dfc46b640234372d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/jasny/validation-result/7d09599a6eb90fb4fff2bbc2dfc46b640234372d.zip",
+                "reference": "7d09599a6eb90fb4fff2bbc2dfc46b640234372d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "jasny/php-code-quality": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jasny\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnold Daniels",
+                    "email": "arnold@jasny.net",
+                    "homepage": "http://www.jasny.net"
+                }
+            ],
+            "description": "A result object for validation",
+            "keywords": [
+                "validation"
+            ],
+            "time": "2016-03-14 22:54:14"
+        },
         {
             "name": "topthink/framework",
             "version": "v5.0.3",

@@ -8,4 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'think\\composer\\' => array($vendorDir . '/topthink/think-installer/src'),
     'think\\' => array($baseDir . '/thinkphp/library/think'),
+    'Jasny\\SSO\\' => array($vendorDir . '/jasny/sso/src'),
+    'Jasny\\' => array($vendorDir . '/jasny/validation-result/src'),
+    'Desarrolla2\\Test\\Cache\\' => array($vendorDir . '/desarrolla2/cache/test'),
+    'Desarrolla2\\Cache\\' => array($vendorDir . '/desarrolla2/cache/src'),
 );

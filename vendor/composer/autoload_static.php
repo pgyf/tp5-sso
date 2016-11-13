@@ -12,6 +12,16 @@ class ComposerStaticInitbecc25aff5e6f2e765d517e1fe588e1d
             'think\\composer\\' => 15,
             'think\\' => 6,
         ),
+        'J' => 
+        array (
+            'Jasny\\SSO\\' => 10,
+            'Jasny\\' => 6,
+        ),
+        'D' => 
+        array (
+            'Desarrolla2\\Test\\Cache\\' => 23,
+            'Desarrolla2\\Cache\\' => 18,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -22,6 +32,22 @@ class ComposerStaticInitbecc25aff5e6f2e765d517e1fe588e1d
         'think\\' => 
         array (
             0 => __DIR__ . '/../..' . '/thinkphp/library/think',
+        ),
+        'Jasny\\SSO\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jasny/sso/src',
+        ),
+        'Jasny\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jasny/validation-result/src',
+        ),
+        'Desarrolla2\\Test\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/desarrolla2/cache/test',
+        ),
+        'Desarrolla2\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/desarrolla2/cache/src',
         ),
     );
 
