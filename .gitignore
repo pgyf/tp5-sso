@@ -1,6 +1,5 @@
-/nbproject/private/
 .idea
 composer.lock
 *.log
 thinkphp
-nbproject/
+nbproject
